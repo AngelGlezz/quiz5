@@ -674,14 +674,13 @@
 	color: white;
 }
 
-
-@media screen and (min-width: 1920px) {
-
-}
-
 @media (max-width: 900px) {
 	#juan {
     	width: 800px;
+	}
+
+	.indepth_portada_cont {
+		bottom: -115px;
 	}
 }
 
@@ -689,11 +688,19 @@
 	#juan {
     	width: 700px;
 	}
+
+	.indepth_portada_cont {
+		bottom: -100px;
+	}
 }
 
 @media (max-width: 700px) {
 	#juan {
     	width: 600px;
+	}
+
+	.indepth_portada_cont {
+		bottom: 85px;
 	}
 }
 
@@ -701,11 +708,19 @@
 	#juan {
     	width: 500px;
 	}
+
+	.indepth_portada_cont {
+		bottom: -48px;
+	}
 }
 
 @media (max-width: 500px) {
 	#juan {
     	width: 400px;
+	}
+
+	.indepth_portada_cont {
+		bottom: -30px;
 	}
 }
 
@@ -902,6 +917,10 @@
 		padding-top: 30px;
 		display: table;
 		
+	}
+
+	.indepth_portada_cont {
+		bottom: -20px;
 	}
 
 	#dominos img {
