@@ -157,6 +157,8 @@
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
+	position: relative;
+    top: 131px;
 }
 
 .indepth_arrow_down:hover{
