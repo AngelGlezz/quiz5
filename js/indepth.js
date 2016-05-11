@@ -771,15 +771,9 @@ $("#indepth_twittear").click(function(){
 	if(!disable){
 
 		
-<<<<<<< HEAD
 		var text = encodeURIComponent("Mi predicción es: Chivas "+$("input[name=goleador]").val()+"-"+$("input[name=goleador2]").val())+ " América primer gol al minuto "+$("input[name=goles_anotados]").val()+" @juanfutbol";
 		var url = encodeURIComponent("http://juanfutbol.com/indepth/");
 		window.open("https://twitter.com/share?text="+text+"&hashtags=pizzafut&url="+url,"indepth/juanpizza-chivas-america","width=500, height=300");
-=======
-		var text = encodeURIComponent("Mi predicción es: Pumas "+$("input[name=goleador]").val()+"-"+$("input[name=goleador2]").val())+ " América primer gol al minuto "+$("input[name=goles_anotados]").val()+" @juanfutbol";
-		var url = encodeURIComponent("http://juanfutbol.com/indepth/indepth/juanpizza-pumas-america");
-		window.open("https://twitter.com/share?text="+text+"&hashtags=pizzafut&url="+url,"width=500, height=300");
->>>>>>> origin/gh-pages
 
 	}else{
 		
