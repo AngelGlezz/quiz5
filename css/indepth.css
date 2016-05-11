@@ -68,7 +68,7 @@
 #juan{
 	width: 900px;
     max-width: 900px;
-    margin-bottom: 0px;
+    margin-bottom: 65px;
 }
 
 #indepth_tiempo_cont{
@@ -677,6 +677,7 @@
 @media (max-width: 900px) {
 	#juan {
     	width: 800px;
+    	margin-bottom: 120px;
 	}
 
 	.indepth_portada_cont {
